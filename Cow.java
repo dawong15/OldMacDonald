@@ -1,8 +1,8 @@
 class Cow implements Animal 
 {     
-     private string myType;
-     private string mySound;
-     public clow(String type,String sound)
+     private String myType;
+     private String mySound;
+     public Cow(String type,String sound)
      {
      	myType=type;
      	mySound=sound;
@@ -10,7 +10,7 @@ class Cow implements Animal
      public Cow()
      {
      	myType="unknown";
-     	mySound-"unknown";
+     	mySound="unknown";
      }
      public String getSound()
      {

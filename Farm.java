@@ -1,10 +1,10 @@
 class Farm 
 {     
    class Farm{
-   	private Anima;[]aBunchOfAnimals=new Animal[3];
+   	private Animal[]aBunchOfAnimals=new Animal[3];
    	public farm(){
-   		aBunchOfAnimals[0]=new Cow("cow","moo");
-   		aBunchOfAnimals[1]=new Chick("chick","cluck");
+   		aBunchOfAnimals[0]=new NamedCow("cow","Bertha","moo");
+   		aBunchOfAnimals[1]=new Chick("chick","cheep","cluck");
    		aBunchOfAnimals[2]=new Pig("pig","oink");
    			
    	}
@@ -13,5 +13,7 @@ class Farm
    			System.out.println(aBunchOfAnimals[nI].getType+ "goes" +aBunchOfAnimals[nI].getSound());
 
    	}
+   	System.out.println("the cow is known as"+((NamedCow)aBunchOfAnimals[0]).getName());
    }
+}
 }
