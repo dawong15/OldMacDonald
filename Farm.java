@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  class Farm  {     
     private Animal[] aBunchOfAnimals = new Animal[3];    
     public Farm()     {       
@@ -13,7 +13,7 @@
          System.out.println( "The cow is known as " + ((NamedCow)aBunchOfAnimals[0]).getName() );    
     } 
 } 
-=======
+
 class Farm 
 {     
    class Farm{
@@ -33,4 +33,4 @@ class Farm
    }
 }
 }
->>>>>>> b116ef481a8cd99de3a69032be6ceca708c9e753
+
