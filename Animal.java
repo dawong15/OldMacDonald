@@ -4,9 +4,3 @@ interface Animal {
   public String getType(); 
 }  
 
-interface Animal 
-{    
-	   public String getSound();
-	   public String getType();
-}  
-
